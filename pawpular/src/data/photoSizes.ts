@@ -1,0 +1,25 @@
+// Byte sizes measured from the local photos directory.
+// Any filename not present here returns undefined — callers must supply a fallback.
+export const photoSizes: Partial<Record<string, number>> = {
+  'cat-silhouette-cats-silhouette-cat-s-eyes.jpg': 173560,
+  'gecko-reptile-terrarium-lizard-407037.jpeg': 749956,
+  'pexels-photo-1108099.jpeg': 1009370,
+  'pexels-photo-126407.jpeg': 166759,
+  'pexels-photo-1383397.jpeg': 1115045,
+  'pexels-photo-1390784.jpeg': 348591,
+  'pexels-photo-1521304.jpeg': 433946,
+  'pexels-photo-1591939.jpeg': 1319691,
+  'pexels-photo-1619690.jpeg': 646315,
+  'pexels-photo-1741205.jpeg': 4955797,
+  'pexels-photo-1851164.jpeg': 1513488,
+  'pexels-photo-220938.jpeg': 296651,
+  'pexels-photo-2607544.jpeg': 3714978,
+  'pexels-photo-2664417.jpeg': 1721379,
+  'pexels-photo-290204.jpeg': 1914813,
+  'pexels-photo-326012.jpeg': 1062803,
+  'pexels-photo-485294.jpeg': 361624,
+  'pexels-photo-56733.jpeg': 895473,
+  'pexels-photo-886210.jpeg': 615879,
+  'pexels-photo-895259.jpeg': 801774,
+  'rabbit-palm-hand-snatch-53966.jpeg': 1177861,
+};
